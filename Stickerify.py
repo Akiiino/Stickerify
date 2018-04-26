@@ -80,7 +80,7 @@ for file_num, img_file in enumerate(imgs):
                 size /= max(size/512)
                 masked_img = masked_img.resize(size.astype(int), Image.ANTIALIAS)
 
-                masked_img.save(os.path.join(res_path, "{}-{}.png".format(file_num, i)))
+                masked_img.save(os.path.join(res_dir, "{}-{}.png".format(file_num, i)))
                 i += 1
                 break
         else:
