@@ -1,14 +1,9 @@
 import argparse
-import os
 import itertools
-
-import numpy as np
-from PIL import Image
-from scipy import ndimage
+import os
 
 from . import utils
 from .screenshot import Screenshot
-
 
 parser = argparse.ArgumentParser()
 parser.add_argument("in_dir", help="directory with input screenshots", metavar='in-dir')
