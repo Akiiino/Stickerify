@@ -8,7 +8,7 @@ setuptools.setup(
     version='1.0.1',
     url='https://github.com/Akiiino/Stickerify.git',
     author='Akiiino',
-    author_email='akiiino@akiiino.me',
+    author_email='stickerify@akiiino.me',
     description='Telegram stickers from screenshots',
     long_description=long_description,
     long_description_content_type="text/markdown",
